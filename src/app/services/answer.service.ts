@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class AnswerService {
 
-  private apiUrl = 'http://localhost:8080/api/allowed-answers'; // Cambia la URL a la de tu API
+  private apiUrl = 'http://217.15.175.118:8095/api/allowed-answers'; // Cambia la URL a la de tu API
 
   constructor(private http: HttpClient) {}
 

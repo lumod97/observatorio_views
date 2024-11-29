@@ -5,7 +5,7 @@ class ApiService {
 
   constructor() {
     this.axiosInstance = axios.create({
-      baseURL: 'http://127.0.0.1:8080', // Configura tu base URL aquí
+      baseURL: 'http://217.15.175.118:8095', // Configura tu base URL aquí
       timeout: 10000,                  // Tiempo de espera (en milisegundos)
       headers: {
         'Content-Type': 'application/json', // Configura encabezados predeterminados

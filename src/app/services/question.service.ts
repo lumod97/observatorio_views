@@ -7,7 +7,7 @@ import { Question } from '../models/question.model';
   providedIn: 'root',
 })
 export class QuestionService {
-  private apiUrl = 'http://127.0.0.1:8080/api/questions'; // Endpoint del backend
+  private apiUrl = 'http://217.15.175.118:8095/api/questions'; // Endpoint del backend
 
   constructor(private http: HttpClient) {}
 
